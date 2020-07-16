@@ -19,6 +19,3 @@ levels:
   - id: '1'
     steps:
       - id: '1.1'
-        setup:
-          filter: ^Example
-          subtasks: true
