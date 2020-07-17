@@ -1,0 +1,58 @@
+{
+  "version": "0.1.0",
+  "summary": {
+    "title": "Introduction",
+    "description": "> Intro"
+  },
+  "config": {
+    "testRunner": {
+      "command": "./node_modules/.bin/mocha",
+      "args": {
+        "filter": "--grep",
+        "tap": "--reporter=mocha-tap-reporter"
+      },
+      "setup": {
+        "commands": [
+          "npm install"
+        ],
+        "commits": [
+          "bef98bd312692e0f05a9be64b7232047500a0513"
+        ]
+      },
+      "directory": ".freeCodeCamp"
+    },
+    "repo": {
+      "uri": "https://github.com/moT01/space-project",
+      "branch": "v0.1.0"
+    },
+    "dependencies": [
+      {
+        "name": "node",
+        "version": ">=10"
+      }
+    ]
+  },
+  "levels": [
+    {
+      "id": "1",
+      "title": "Subtask Example",
+      "summary": "Subtask Example",
+      "content": "A subtask example",
+      "steps": [
+        {
+          "id": "1.1",
+          "content": "Complete the tasks below",
+          "subtasks": [
+            "Add one number",
+            "Add two numbers"
+          ],
+          "setup": {
+            "commits": [
+              "a642f893b0f7aaea90177a1e09b0f41e9b9c5de5"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
