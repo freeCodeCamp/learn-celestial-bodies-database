@@ -23,7 +23,7 @@
           "cd /etc/postgresql/9.6/main && sudo chmod 777 postgresql.conf && echo \"log_statement = 'all'\" >> postgresql.conf && echo \"log_checkpoints = on\" >> postgresql.conf && echo \"log_min_error_statement = INFO\" >> postgresql.conf && echo \"log_min_messages = INFO\" >> postgresql.conf && echo \"logging_collector = on\" >> postgresql.conf && echo \"log_directory = '/home/strove/project/.freeCodeCamp/test'\" >> postgresql.conf && echo \"log_filename = 'pg.log'\" >> postgresql.conf && echo \"log_connections = on\" >> postgresql.conf && echo \"log_line_prefix = '%u '\" >> postgresql.conf"
         ],
         "commits": [
-          "8225ddbec5280caf2a06e37920bcbb88f022a865"
+          "4edd39bcf49116572f632bdcb384d9c73df97668"
         ]
       },
       "directory": ".freeCodeCamp"
@@ -44,7 +44,7 @@
       "id": "1",
       "title": "Instructions",
       "summary": "For this project, you need to log in to psql. Do that by entering `psql -U fr...",
-      "content": "For this project, you need to log in to psql. Do that by entering `psql -U freecodecamp postgres` in the terminal. Be sure to get creative, and have fun! Don't forget to connect to your database after you create it :smile:",
+      "content": "For this project, you need to log in to psql. Do that by entering `psql -U freecodecamp postgres` in the terminal. Be sure to get creative, and have fun! Don't forget to connect to your database after you create it :smile:\n\nHere's some ideas for other column and table names: `description`, `has_life`, `is_spherical`, `age_in_millions_of_years`, `planet_types`, `galaxy_types`, `distance_from_earth`.\n\nYou can export your database at any time by entering `sudo pg_dump -U postgres universe > universe.sql` from a terminal (not the psql prompt). It will save your database to `universe.sql`. Then, you can copy and paste what's in there to a file on your computer.",
       "steps": [
         {
           "id": "1.1",
@@ -53,7 +53,7 @@
               "./.freeCodeCamp/test/pg.log"
             ],
             "commits": [
-              "36aa2d7ee2157da2a28a3992752b436ddcc56542"
+              "daead196ef2e5ad37fb52cf715bd22e60be07273"
             ]
           },
           "content": "Complete all the tasks below",
@@ -65,7 +65,6 @@
             "Each table should have a `name` column",
             "You should use the `INT` data type for at least two columns that are not a primary or foreign key",
             "You should use the `NUMERIC` data type",
-            "You should use the `DATE` data type",
             "You should use the `TEXT` data type",
             "You should use the `BOOLEAN` data type on at least two columns",
             "Each \"star\" should have a foreign key that references one of the rows in `galaxy`",
