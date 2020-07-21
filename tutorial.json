@@ -14,6 +14,8 @@
       "setup": {
         "commands": [
           "npm install",
+          "cd /etc/postgresql/12/main && sudo sed -i \"s/peer/trust/\" pg_hba.conf && sudo sed -i \"s/md5/trust/\" pg_hba.conf",
+          "cd /etc/postgresql/9.6/main && sudo sed -i \"s/peer/trust/\" pg_hba.conf && sudo sed -i \"s/md5/trust/\" pg_hba.conf",
           "sudo service postgresql start",
           "sudo -u postgres psql -c \"CREATE USER freecodecamp WITH CREATEDB;\"",
           "sudo -u postgres psql -c \"ALTER ROLE postgres WITH PASSWORD 'password';\""
