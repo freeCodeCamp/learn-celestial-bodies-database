@@ -27,4 +27,4 @@ levels:
       - id: '1.1'
         setup:
           watchers:
-            - ../.bash_history
+            - ./.freeCodeCamp/test/pg.log

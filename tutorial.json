@@ -2,7 +2,7 @@
   "version": "0.1.0",
   "summary": {
     "title": "Build a Universe Project",
-    "description": "> Intro"
+    "description": "> Welcome! Are you ready to build a database of the universe?"
   },
   "config": {
     "testRunner": {
@@ -41,7 +41,7 @@
   "levels": [
     {
       "id": "1",
-      "title": "Subtask Example",
+      "title": "Instructions",
       "summary": "For this project, you need to log in to psql as `freeCodeCamp` to the `postgr...",
       "content": "For this project, you need to log in to psql as `freeCodeCamp` to the `postgres` database. Do that by entering `psql -U freecodecamp postgres` in the terminal. Be sure to get creative, and have fun!",
       "steps": [
