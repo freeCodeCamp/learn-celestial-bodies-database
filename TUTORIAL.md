@@ -6,6 +6,10 @@
 
 For this project, you need to log in to psql. Do that by entering `psql -U freecodecamp postgres` in the terminal. Be sure to get creative, and have fun! Don't forget to connect to your database after you create it :smile:
 
+Here's some ideas for other column and table names: `description`, `has_life`, `is_spherical`, `age_in_millions_of_years`, `planet_types`, `galaxy_types`, `distance_from_earth`.
+
+You can export your database at any time by entering `sudo pg_dump -U postgres universe > universe.sql` from a terminal (not the psql prompt). It will save your database to `universe.sql`. Then, you can copy and paste what's in there to a file on your computer.
+
 ### 1.1
 
 Complete all the tasks below
@@ -19,7 +23,6 @@ Complete all the tasks below
 - Each table should have a `name` column
 - You should use the `INT` data type for at least two columns that are not a primary or foreign key
 - You should use the `NUMERIC` data type
-- You should use the `DATE` data type
 - You should use the `TEXT` data type
 - You should use the `BOOLEAN` data type on at least two columns
 - Each "star" should have a foreign key that references one of the rows in `galaxy`
