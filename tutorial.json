@@ -23,7 +23,7 @@
           "cd /etc/postgresql/9.6/main && sudo chmod 777 postgresql.conf && echo \"log_statement = 'all'\" >> postgresql.conf && echo \"log_checkpoints = on\" >> postgresql.conf && echo \"log_min_error_statement = INFO\" >> postgresql.conf && echo \"log_min_messages = INFO\" >> postgresql.conf && echo \"logging_collector = on\" >> postgresql.conf && echo \"log_directory = '/home/strove/project/.freeCodeCamp/test'\" >> postgresql.conf && echo \"log_filename = 'pg.log'\" >> postgresql.conf && echo \"log_connections = on\" >> postgresql.conf && echo \"log_line_prefix = '%u '\" >> postgresql.conf"
         ],
         "commits": [
-          "abe0e37e0b18b3cc028b57150ed2efc0a0d56952"
+          "8225ddbec5280caf2a06e37920bcbb88f022a865"
         ]
       },
       "directory": ".freeCodeCamp"
@@ -53,7 +53,7 @@
               "./.freeCodeCamp/test/pg.log"
             ],
             "commits": [
-              "948b6e394d25a5b47d815bb505dbd5c0b5cc1a06"
+              "36aa2d7ee2157da2a28a3992752b436ddcc56542"
             ]
           },
           "content": "Complete all the tasks below",
@@ -66,6 +66,7 @@
             "You should use the `INT` data type for at least two columns that are not a primary or foreign key",
             "You should use the `NUMERIC` data type",
             "You should use the `DATE` data type",
+            "You should use the `TEXT` data type",
             "You should use the `BOOLEAN` data type on at least two columns",
             "Each \"star\" should have a foreign key that references one of the rows in `galaxy`",
             "Each \"planet\" should have a foreign key that references one of the rows in `star`",
