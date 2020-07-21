@@ -8,6 +8,8 @@ config:
     setup:
       commands:
         - npm install
+        - sudo service postgresql start
+        - sudo -u postgres psql && "ALTER ROLE postgres WITH PASSWORD 'password'" && "CREATE USER freeCodeCamp with CREATEDB"
     directory: .freeCodeCamp
   repo:
     uri: https://github.com/moT01/build-a-universe
