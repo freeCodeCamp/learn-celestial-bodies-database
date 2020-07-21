@@ -17,13 +17,12 @@
           "cd /etc/postgresql/12/main && sudo sed -i \"s/peer/trust/\" pg_hba.conf && sudo sed -i \"s/md5/trust/\" pg_hba.conf",
           "cd /etc/postgresql/9.6/main && sudo sed -i \"s/peer/trust/\" pg_hba.conf && sudo sed -i \"s/md5/trust/\" pg_hba.conf",
           "sudo service postgresql start",
-          "sudo -u postgres psql -c \"CREATE USER freecodecamp WITH CREATEDB;\"",
           "sudo -u postgres psql -c \"ALTER ROLE postgres WITH PASSWORD 'password';\"",
           "cd /etc/postgresql/12/main && sudo chmod 777 postgresql.conf && echo \"log_statement = 'all'\" >> postgresql.conf && echo \"log_checkpoints = on\" >> postgresql.conf && echo \"log_min_error_statement = INFO\" >> postgresql.conf && echo \"log_min_messages = INFO\" >> postgresql.conf && echo \"logging_collector = on\" >> postgresql.conf && echo \"log_directory = '/home/strove/project/.freeCodeCamp/test'\" >> postgresql.conf && echo \"log_filename = 'pg.log'\" >> postgresql.conf && echo \"log_connections = on\" >> postgresql.conf && echo \"log_line_prefix = '%u '\" >> postgresql.conf",
           "cd /etc/postgresql/9.6/main && sudo chmod 777 postgresql.conf && echo \"log_statement = 'all'\" >> postgresql.conf && echo \"log_checkpoints = on\" >> postgresql.conf && echo \"log_min_error_statement = INFO\" >> postgresql.conf && echo \"log_min_messages = INFO\" >> postgresql.conf && echo \"logging_collector = on\" >> postgresql.conf && echo \"log_directory = '/home/strove/project/.freeCodeCamp/test'\" >> postgresql.conf && echo \"log_filename = 'pg.log'\" >> postgresql.conf && echo \"log_connections = on\" >> postgresql.conf && echo \"log_line_prefix = '%u '\" >> postgresql.conf"
         ],
         "commits": [
-          "8d5b610a96e8dfcde75b24da1486633c405b459e"
+          "abe0e37e0b18b3cc028b57150ed2efc0a0d56952"
         ]
       },
       "directory": ".freeCodeCamp"
@@ -43,8 +42,8 @@
     {
       "id": "1",
       "title": "Instructions",
-      "summary": "For this project, you need to log in to psql as `freeCodeCamp` to the `postgr...",
-      "content": "For this project, you need to log in to psql as `freeCodeCamp` to the `postgres` database. Do that by entering `psql -U freecodecamp postgres` in the terminal. Be sure to get creative, and have fun!",
+      "summary": "For this project, you need to log in to psql. Do that by entering `sudo -u po...",
+      "content": "For this project, you need to log in to psql. Do that by entering `sudo -u postgres psql` in the terminal. Be sure to get creative, and have fun!",
       "steps": [
         {
           "id": "1.1",
@@ -53,7 +52,7 @@
               "./.freeCodeCamp/test/pg.log"
             ],
             "commits": [
-              "33e08bbde7079540ab52fd7e7eae4823ad71895f"
+              "948b6e394d25a5b47d815bb505dbd5c0b5cc1a06"
             ]
           },
           "content": "Complete all the tasks below",
