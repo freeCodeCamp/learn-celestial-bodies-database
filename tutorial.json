@@ -15,7 +15,8 @@
         "commands": [
           "npm install",
           "sudo service postgresql start",
-          "sudo -u postgres psql && \"ALTER ROLE postgres WITH PASSWORD 'password';\" && \"CREATE USER freeCodeCamp with CREATEDB;\""
+          "sudo -u postgres psql -c \"CREATE USER freecodecamp WITH CREATEDB;\"",
+          "sudo -u postgres psql -c \"ALTER ROLE postgres WITH PASSWORD 'password';\""
         ],
         "commits": [
           "ab666336e7a2fd9ae9e9a9d2cabe258f51ac0972"
