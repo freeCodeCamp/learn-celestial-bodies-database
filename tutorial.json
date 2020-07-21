@@ -23,7 +23,7 @@
           "cd /etc/postgresql/9.6/main && sudo chmod 777 postgresql.conf && echo \"log_statement = 'all'\" >> postgresql.conf && echo \"log_checkpoints = on\" >> postgresql.conf && echo \"log_min_error_statement = INFO\" >> postgresql.conf && echo \"log_min_messages = INFO\" >> postgresql.conf && echo \"logging_collector = on\" >> postgresql.conf && echo \"log_directory = '/home/strove/project/.freeCodeCamp/test'\" >> postgresql.conf && echo \"log_filename = 'pg.log'\" >> postgresql.conf && echo \"log_connections = on\" >> postgresql.conf && echo \"log_line_prefix = '%u '\" >> postgresql.conf"
         ],
         "commits": [
-          "4edd39bcf49116572f632bdcb384d9c73df97668"
+          "af82f9d04e1044f42013c8e3ac9e8c04f1f9162e"
         ]
       },
       "directory": ".freeCodeCamp"
@@ -44,7 +44,7 @@
       "id": "1",
       "title": "Instructions",
       "summary": "For this project, you need to log in to psql. Do that by entering `psql -U fr...",
-      "content": "For this project, you need to log in to psql. Do that by entering `psql -U freecodecamp postgres` in the terminal. Be sure to get creative, and have fun! Don't forget to connect to your database after you create it :smile:\n\nHere's some ideas for other column and table names: `description`, `has_life`, `is_spherical`, `age_in_millions_of_years`, `planet_types`, `galaxy_types`, `distance_from_earth`.\n\nYou can export your database at any time by entering `sudo pg_dump -U postgres universe > universe.sql` from a terminal (not the psql prompt). It will save your database to `universe.sql`. Then, you can copy and paste what's in there to a file on your computer.",
+      "content": "For this project, you need to log in to psql. Do that by entering `psql -U freecodecamp postgres` in the terminal. Be sure to get creative, and have fun! Don't forget to connect to your database after you create it :smile:\n\nHere's some ideas for other column and table names: `description`, `has_life`, `is_spherical`, `age_in_millions_of_years`, `planet_types`, `galaxy_types`, `distance_from_earth`.\n\nYou can export your database at any time by entering `sudo pg_dump -U freecodecamp universe > universe.sql` from a terminal (not the psql prompt). It will save your database to `universe.sql`. Then, you can copy and paste what's in there to a file on your computer.",
       "steps": [
         {
           "id": "1.1",
@@ -53,7 +53,7 @@
               "./.freeCodeCamp/test/pg.log"
             ],
             "commits": [
-              "daead196ef2e5ad37fb52cf715bd22e60be07273"
+              "b3a25cc383897bd586b8814f9fa3d41751f1f890"
             ]
           },
           "content": "Complete all the tasks below",
@@ -71,16 +71,16 @@
             "Each \"planet\" should have a foreign key that references one of the rows in `star`",
             "Each \"moon\" should have a foreign key that references one of the rows in `planet`",
             "Your database should have at least five tables",
-            "Each table should have at least six rows",
+            "Each table should have at least three rows",
+            "The `galaxy` and `star` tables should each have at least six rows",
             "The `planet` table should have at least 12 rows",
             "The `moon` table should have at least 20 rows",
             "Each table should have at least three columns",
             "The `galaxy`, `star`, `planet`, and `moon` tables should each have at least five columns",
-            "You should not have more than two columns per table that accept `NULL` values",
-            "No rows should have more than one empty field",
+            "At least two columns per table should not accept `NULL` values",
             "At least one column from each table should be required to be `UNIQUE`",
             "All columns named `name` should be of type `VARCHAR`",
-            "Each primary key should follow the naming convention `table_name_id`. For example, the `moon` table should have a primary key named `moon_id`",
+            "Each primary key column should follow the naming convention `table_name_id`. For example, the `moon` table should have a primary key columm named `moon_id`",
             "Each foreign key column should have the same name as the column it is referencing"
           ]
         }
