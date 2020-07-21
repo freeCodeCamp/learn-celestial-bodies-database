@@ -1,8 +1,8 @@
 # Build a Universe Project
 
-> Intro
+> Welcome! Are you ready to build a database of the universe?
 
-## 1. Subtask Example
+## 1. Instructions
 
 For this project, you need to log in to psql as `freeCodeCamp` to the `postgres` database. Do that by entering `psql -U freecodecamp postgres` in the terminal. Be sure to get creative, and have fun!
 
