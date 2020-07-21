@@ -4,7 +4,7 @@
 
 ## 1. Instructions
 
-For this project, you need to log in to psql. Do that by entering `psql -U freecodecamp postgres` in the terminal. Be sure to get creative, and have fun! Don't forget to connect to your database after you create it :smile:
+For this project, you need to log in to psql. Do that by entering `psql -U freecodecamp postgres` in the terminal. Be sure to get creative, and have fun! **Don't forget to connect to your database after you create it** :smile:
 
 Here's some ideas for other column and table names: `description`, `has_life`, `is_spherical`, `age_in_millions_of_years`, `planet_types`, `galaxy_types`, `distance_from_earth`.
 
