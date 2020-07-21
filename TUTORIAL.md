@@ -4,7 +4,7 @@
 
 ## 1. Instructions
 
-For this project, you need to log in to psql as `freeCodeCamp` to the `postgres` database. Do that by entering `psql -U freecodecamp postgres` in the terminal. Be sure to get creative, and have fun!
+For this project, you need to log in to psql. Do that by entering `sudo -u postgres psql` in the terminal. Be sure to get creative, and have fun!
 
 ### 1.1
 
