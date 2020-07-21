@@ -13,7 +13,9 @@
       },
       "setup": {
         "commands": [
-          "npm install"
+          "npm install",
+          "sudo service postgresql start",
+          "sudo -u postgres psql && \"ALTER ROLE postgres WITH PASSWORD 'password'\" && \"CREATE USER freeCodeCamp with CREATEDB\""
         ],
         "commits": [
           "ab666336e7a2fd9ae9e9a9d2cabe258f51ac0972"
@@ -36,8 +38,8 @@
     {
       "id": "1",
       "title": "Subtask Example",
-      "summary": "For this project, you need to log in to psql as `freeCodeCamp`. Do that by en...",
-      "content": "For this project, you need to log in to psql as `freeCodeCamp`. Do that by entering `sudo -u freeCodeCamp psql` in the terminal. Do not change any of the user settings. Be sure to get creative, and have fun!",
+      "summary": "For this project, you need to log in to psql as `freeCodeCamp` to the `postgr...",
+      "content": "For this project, you need to log in to psql as `freeCodeCamp` to the `postgres` database. Do that by entering `psql -U freecodecamp postgres` in the terminal. Be sure to get creative, and have fun!",
       "steps": [
         {
           "id": "1.1",
