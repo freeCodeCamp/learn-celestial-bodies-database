@@ -49,7 +49,7 @@
           "id": "1.1",
           "setup": {
             "watchers": [
-              "../.bash_history"
+              "./.freeCodeCamp/test/pg.log"
             ],
             "commits": [
               "acea09343b0edcfbfd57d38d55255acd9815d5d5"
