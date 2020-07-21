@@ -15,9 +15,9 @@ Complete all the tasks below
 - You should create a database named `universe`
 - You should have tables named `galaxy`, `star`, `planet`, and `moon`
 - Each table should have a unique primary key
-- Each primary key should be of type `SERIAL`
+- Each primary key should automatically increment
 - Each table should have a `name` column
-- You should use the `INT` data type on at least two columns that are not a primary or foreign key
+- You should use the `INT` data type for at least two columns that are not a primary or foreign key
 - You should use the `NUMERIC` data type
 - You should use the `DATE` data type
 - You should use the `BOOLEAN` data type on at least two columns
@@ -28,10 +28,11 @@ Complete all the tasks below
 - Each table should have at least six rows
 - The `planet` table should have at least 12 rows
 - The `moon` table should have at least 20 rows
-- The required tables should each have at least five columns
 - Each table should have at least three columns
-- You should not have more than one column per table that accepts `NULL` values
-- No rows should have empty fields (`NULL` does not count as empty)
-- At least two columns from each table should be `UNIQUE`
+- The `galaxy`, `star`, `planet`, and `moon` tables should each have at least five columns
+- You should not have more than two columns per table that accept `NULL` values
+- No rows should have more than one empty field
+- At least one column from each table should be required to be `UNIQUE`
 - All columns named `name` should be of type `VARCHAR`
 - Each primary key should follow the naming convention `table_name_id`. For example, the `moon` table should have a primary key named `moon_id`
+- Each foreign key column should have the same name as the column it is referencing
