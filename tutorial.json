@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": {
     "title": "Build a Universe Project",
     "description": "> Welcome! Are you ready to build a database of the universe?"
@@ -23,14 +23,14 @@
           "cd /etc/postgresql/9.6/main && sudo chmod 777 postgresql.conf && echo \"log_statement = 'all'\" >> postgresql.conf && echo \"log_checkpoints = on\" >> postgresql.conf && echo \"log_min_error_statement = INFO\" >> postgresql.conf && echo \"log_min_messages = INFO\" >> postgresql.conf && echo \"logging_collector = on\" >> postgresql.conf && echo \"log_directory = '/home/strove/project/.freeCodeCamp/test'\" >> postgresql.conf && echo \"log_filename = 'pg.log'\" >> postgresql.conf && echo \"log_connections = on\" >> postgresql.conf && echo \"log_line_prefix = '%u '\" >> postgresql.conf"
         ],
         "commits": [
-          "af7dd9f24e9018dd79fb407238c598b8e993d6d0"
+          "26d8f1201664e203c30ac2a3ca0f9410a05f04c3"
         ]
       },
       "directory": ".freeCodeCamp"
     },
     "repo": {
       "uri": "https://github.com/moT01/build-a-universe",
-      "branch": "v0.1.0"
+      "branch": "v0.1.1"
     },
     "dependencies": [
       {
@@ -53,7 +53,7 @@
               "./.freeCodeCamp/test/pg.log"
             ],
             "commits": [
-              "42b3410c25dc52587f2807b755cfcaf096b5df72"
+              "51a8fc17881b3d79787bf32002a3c8ccd443529b"
             ]
           },
           "content": "Complete all the tasks below",
