@@ -23,7 +23,7 @@
           "cd /etc/postgresql/9.6/main && sudo chmod 777 postgresql.conf && echo \"log_statement = 'all'\" >> postgresql.conf && echo \"log_checkpoints = on\" >> postgresql.conf && echo \"log_min_error_statement = INFO\" >> postgresql.conf && echo \"log_min_messages = INFO\" >> postgresql.conf && echo \"logging_collector = on\" >> postgresql.conf && echo \"log_directory = '/home/strove/project/.freeCodeCamp/test'\" >> postgresql.conf && echo \"log_filename = 'pg.log'\" >> postgresql.conf && echo \"log_connections = on\" >> postgresql.conf && echo \"log_line_prefix = '%u '\" >> postgresql.conf"
         ],
         "commits": [
-          "af82f9d04e1044f42013c8e3ac9e8c04f1f9162e"
+          "af7dd9f24e9018dd79fb407238c598b8e993d6d0"
         ]
       },
       "directory": ".freeCodeCamp"
@@ -44,7 +44,7 @@
       "id": "1",
       "title": "Instructions",
       "summary": "For this project, you need to log in to psql. Do that by entering `psql -U fr...",
-      "content": "For this project, you need to log in to psql. Do that by entering `psql -U freecodecamp postgres` in the terminal. Be sure to get creative, and have fun! Don't forget to connect to your database after you create it :smile:\n\nHere's some ideas for other column and table names: `description`, `has_life`, `is_spherical`, `age_in_millions_of_years`, `planet_types`, `galaxy_types`, `distance_from_earth`.\n\nYou can export your database at any time by entering `sudo pg_dump -U freecodecamp universe > universe.sql` from a terminal (not the psql prompt). It will save your database to `universe.sql`. Then, you can copy and paste what's in there to a file on your computer.",
+      "content": "For this project, you need to log in to psql. Do that by entering `psql -U freecodecamp postgres` in the terminal. Be sure to get creative, and have fun! **Don't forget to connect to your database after you create it** :smile:\n\nHere's some ideas for other column and table names: `description`, `has_life`, `is_spherical`, `age_in_millions_of_years`, `planet_types`, `galaxy_types`, `distance_from_earth`.\n\nYou can export your database at any time by entering `sudo pg_dump -U freecodecamp universe > universe.sql` from a terminal (not the psql prompt). It will save your database to `universe.sql`. Then, you can copy and paste what's in there to a file on your computer and use it to recreate the database.",
       "steps": [
         {
           "id": "1.1",
@@ -53,7 +53,7 @@
               "./.freeCodeCamp/test/pg.log"
             ],
             "commits": [
-              "b3a25cc383897bd586b8814f9fa3d41751f1f890"
+              "42b3410c25dc52587f2807b755cfcaf096b5df72"
             ]
           },
           "content": "Complete all the tasks below",
