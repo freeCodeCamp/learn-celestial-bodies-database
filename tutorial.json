@@ -23,7 +23,7 @@
           "cd /etc/postgresql/9.6/main && sudo chmod 777 postgresql.conf && echo \"log_statement = 'all'\" >> postgresql.conf && echo \"log_checkpoints = on\" >> postgresql.conf && echo \"log_min_error_statement = INFO\" >> postgresql.conf && echo \"log_min_messages = INFO\" >> postgresql.conf && echo \"logging_collector = on\" >> postgresql.conf && echo \"log_directory = '/home/strove/project/.freeCodeCamp/test'\" >> postgresql.conf && echo \"log_filename = 'pg.log'\" >> postgresql.conf && echo \"log_connections = on\" >> postgresql.conf && echo \"log_line_prefix = '%u '\" >> postgresql.conf"
         ],
         "commits": [
-          "6ae27c00d272926d6d2a785701f8c237be71f464"
+          "720afcd6e8fa8f01948535b7a23534783ca47e64"
         ]
       },
       "directory": ".freeCodeCamp"
@@ -53,7 +53,7 @@
               "./.freeCodeCamp/test/pg.log"
             ],
             "commits": [
-              "a5e11498d67fa50b0688d395a83874c6f3ea5292"
+              "a8b08b33fa9eceb59a40b52c73f22485d132eb4c"
             ]
           },
           "content": "Complete all the tasks below",
