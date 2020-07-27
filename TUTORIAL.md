@@ -1,18 +1,20 @@
-# Build a Universe Project
+# Celestial Bodies Database
 
 > Welcome! Are you ready to build a database of the universe?
 
 ## 1. Instructions
 
-For this project, you need to log in to psql. Do that by entering `psql -U freecodecamp postgres` in the terminal. Be sure to get creative, and have fun! **Don't forget to connect to your database after you create it** :smile:
+For this project, you need to log in to psql. Do that by entering `psql -U freecodecamp postgres` in the terminal. Be sure to get creative, and have fun!
 
 Here's some ideas for other column and table names: `description`, `has_life`, `is_spherical`, `age_in_millions_of_years`, `planet_types`, `galaxy_types`, `distance_from_earth`.
 
 You can export your database at any time by entering `sudo pg_dump -U freecodecamp universe > universe.sql` from a terminal (not the psql prompt). It will save your database to `universe.sql`. Then, you can save that file to your computer and use it to recreate the database.
 
+**Don't forget to connect to your database after you create it** :smile:
+
 ### 1.1
 
-Complete all the tasks below
+Connect to and add all the info below to the `universe` database you create
 
 #### SUBTASKS
 
