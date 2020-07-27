@@ -1,7 +1,7 @@
 {
   "version": "0.1.1",
   "summary": {
-    "title": "Build a Universe Project",
+    "title": "Celestial Bodies Database",
     "description": "> Welcome! Are you ready to build a database of the universe?"
   },
   "config": {
@@ -42,7 +42,7 @@
       "id": "1",
       "title": "Instructions",
       "summary": "For this project, you need to log in to psql. Do that by entering `psql -U fr...",
-      "content": "For this project, you need to log in to psql. Do that by entering `psql -U freecodecamp postgres` in the terminal. Be sure to get creative, and have fun! **Don't forget to connect to your database after you create it** :smile:\n\nHere's some ideas for other column and table names: `description`, `has_life`, `is_spherical`, `age_in_millions_of_years`, `planet_types`, `galaxy_types`, `distance_from_earth`.\n\nYou can export your database at any time by entering `sudo pg_dump -U freecodecamp universe > universe.sql` from a terminal (not the psql prompt). It will save your database to `universe.sql`. Then, you can save that file to your computer and use it to recreate the database.",
+      "content": "For this project, you need to log in to psql. Do that by entering `psql -U freecodecamp postgres` in the terminal. Be sure to get creative, and have fun!\n\nHere's some ideas for other column and table names: `description`, `has_life`, `is_spherical`, `age_in_millions_of_years`, `planet_types`, `galaxy_types`, `distance_from_earth`.\n\nYou can export your database at any time by entering `sudo pg_dump -U freecodecamp universe > universe.sql` from a terminal (not the psql prompt). It will save your database to `universe.sql`. Then, you can save that file to your computer and use it to recreate the database.\n\n**Don't forget to connect to your database after you create it** :smile:",
       "steps": [
         {
           "id": "1.1",
@@ -54,7 +54,7 @@
               "1a44093516accdd54036cae277fb75e98b771653"
             ]
           },
-          "content": "Complete all the tasks below",
+          "content": "Connect to and add all the info below to the `universe` database you create",
           "subtasks": [
             "You should create a database named `universe`",
             "You should have tables named `galaxy`, `star`, `planet`, and `moon`",
