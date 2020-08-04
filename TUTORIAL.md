@@ -14,12 +14,12 @@ You can export your database at any time by entering `sudo pg_dump -U freecodeca
 
 ### 1.1
 
-Connect to and add all the info below to the `universe` database you create
+Complete the tasks below
 
 #### SUBTASKS
 
 - You should create a database named `universe`
-- You should have tables named `galaxy`, `star`, `planet`, and `moon`
+- Be sure to connect to your database with `\c universe`. Then, you should add tables named `galaxy`, `star`, `planet`, and `moon`
 - Each table should have a unique primary key
 - Each primary key should automatically increment
 - Each table should have a `name` column
