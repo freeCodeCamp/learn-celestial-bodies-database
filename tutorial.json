@@ -21,7 +21,7 @@
           "cd /etc/postgresql/12/main && sudo chmod 777 postgresql.conf && echo \"log_statement = 'all'\" >> postgresql.conf && echo \"log_checkpoints = on\" >> postgresql.conf && echo \"log_min_error_statement = INFO\" >> postgresql.conf && echo \"log_min_messages = INFO\" >> postgresql.conf && echo \"logging_collector = on\" >> postgresql.conf && echo \"log_directory = '/home/strove/project/.freeCodeCamp/test'\" >> postgresql.conf && echo \"log_filename = 'pg.log'\" >> postgresql.conf && echo \"log_connections = on\" >> postgresql.conf && echo \"log_line_prefix = '%u '\" >> postgresql.conf"
         ],
         "commits": [
-          "32f0ff2ffb7776008be3fa8298b1e4f575dfefa9"
+          "f0f7bb9a1167579c53b77d96956bf680dd48bf6e"
         ]
       },
       "directory": ".freeCodeCamp"
@@ -51,13 +51,13 @@
               "./.freeCodeCamp/test/pg.log"
             ],
             "commits": [
-              "2a630d1c8054ecc2f9a3f372a680cf3deb5d64a2"
+              "63d15eed8636ef0ed22080ade90a8bab6f6c389a"
             ]
           },
-          "content": "Connect to and add all the info below to the `universe` database you create",
+          "content": "Complete the tasks below",
           "subtasks": [
             "You should create a database named `universe`",
-            "You should have tables named `galaxy`, `star`, `planet`, and `moon`",
+            "Be sure to connect to your database with `\\c universe`. Then, you should add tables named `galaxy`, `star`, `planet`, and `moon`",
             "Each table should have a unique primary key",
             "Each primary key should automatically increment",
             "Each table should have a `name` column",
