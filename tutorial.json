@@ -1,5 +1,5 @@
 {
-  "version": "0.1.1",
+  "version": "0.1.2",
   "summary": {
     "title": "Celestial Bodies Database",
     "description": "> Welcome! Are you ready to build a database of the universe?"
@@ -21,14 +21,14 @@
           "cd /etc/postgresql/12/main && sudo chmod 777 postgresql.conf && echo \"log_statement = 'all'\" >> postgresql.conf && echo \"log_checkpoints = on\" >> postgresql.conf && echo \"log_min_error_statement = INFO\" >> postgresql.conf && echo \"log_min_messages = INFO\" >> postgresql.conf && echo \"logging_collector = on\" >> postgresql.conf && echo \"log_directory = '/home/strove/project/.freeCodeCamp/test'\" >> postgresql.conf && echo \"log_filename = 'pg.log'\" >> postgresql.conf && echo \"log_connections = on\" >> postgresql.conf && echo \"log_line_prefix = '%u '\" >> postgresql.conf"
         ],
         "commits": [
-          "fb410407962096f2d200d5e0c535b9e2b0388554"
+          "32f0ff2ffb7776008be3fa8298b1e4f575dfefa9"
         ]
       },
       "directory": ".freeCodeCamp"
     },
     "repo": {
       "uri": "https://github.com/moT01/celestial-bodies-database",
-      "branch": "v0.1.1"
+      "branch": "v0.1.2"
     },
     "dependencies": [
       {
@@ -51,7 +51,7 @@
               "./.freeCodeCamp/test/pg.log"
             ],
             "commits": [
-              "1a44093516accdd54036cae277fb75e98b771653"
+              "2a630d1c8054ecc2f9a3f372a680cf3deb5d64a2"
             ]
           },
           "content": "Connect to and add all the info below to the `universe` database you create",
