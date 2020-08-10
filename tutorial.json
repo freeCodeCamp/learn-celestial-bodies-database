@@ -1,34 +1,35 @@
 {
-  "version": "0.1.2",
+  "version": "0.1.3",
   "summary": {
     "title": "Celestial Bodies Database",
     "description": "> Welcome! Are you ready to build a database of the universe?"
   },
   "config": {
+    "setup": {
+      "commands": [
+        "sudo service postgresql stop",
+        "cd .freeCodeCamp && npm install",
+        "sudo cp ~/project/.freeCodeCamp/.psqlrc ~",
+        "sudo cp ~/project/.freeCodeCamp/pg_hba.conf /etc/postgresql/12/main/pg_hba.conf",
+        "sudo service postgresql start",
+        "sudo -u postgres psql -c \"CREATE USER freecodecamp WITH CREATEDB;\"",
+        "sudo -u postgres psql -c \"ALTER ROLE postgres WITH PASSWORD 'password';\""
+      ],
+      "commits": [
+        "15e8d2b0a6d465f18676bbb8cff2b8f01353050b"
+      ]
+    },
     "testRunner": {
       "command": "./node_modules/.bin/mocha",
       "args": {
         "filter": "--grep",
         "tap": "--reporter=mocha-tap-reporter"
       },
-      "setup": {
-        "commands": [
-          "sudo service postgresql stop",
-          "npm install",
-          "cd /etc/postgresql/12/main && sudo sed -i \"s/peer/trust/\" pg_hba.conf && sudo sed -i \"s/md5/trust/\" pg_hba.conf",
-          "sudo service postgresql start",
-          "sudo -u postgres psql -c \"CREATE USER freecodecamp WITH CREATEDB;\"",
-          "sudo -u postgres psql -c \"ALTER ROLE postgres WITH PASSWORD 'password';\""
-        ],
-        "commits": [
-          "e95bc5a0cefa72d72e502047d2f3ddb15845413c"
-        ]
-      },
       "directory": ".freeCodeCamp"
     },
     "repo": {
       "uri": "https://github.com/moT01/celestial-bodies-database",
-      "branch": "v0.1.2"
+      "branch": "v0.1.3"
     },
     "dependencies": [
       {
@@ -75,7 +76,7 @@
           ],
           "setup": {
             "commits": [
-              "28783dc7d1a73fd8bce52f6cf136f45028beeb15"
+              "4479ce5cfa1d2c0f7fba8babf87b7cac999ecb65"
             ]
           }
         }
