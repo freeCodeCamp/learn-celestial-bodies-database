@@ -16,7 +16,7 @@
         "sudo -u postgres psql -c \"ALTER ROLE postgres WITH PASSWORD 'password';\""
       ],
       "commits": [
-        "15e8d2b0a6d465f18676bbb8cff2b8f01353050b"
+        "9497ab1fe2cbcc4160755691b0dfdc205380b21c"
       ]
     },
     "testRunner": {
@@ -76,7 +76,7 @@
           ],
           "setup": {
             "commits": [
-              "4479ce5cfa1d2c0f7fba8babf87b7cac999ecb65"
+              "b82c5956c6da4960461adc351bd1792e70108e8e"
             ]
           }
         }
