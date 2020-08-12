@@ -1,5 +1,5 @@
 {
-  "version": "0.1.3",
+  "version": "0.1.4",
   "summary": {
     "title": "Celestial Bodies Database",
     "description": "> Welcome! Are you ready to build a database of the universe?"
@@ -16,7 +16,7 @@
         "sudo -u postgres psql -c \"ALTER ROLE postgres WITH PASSWORD 'password';\""
       ],
       "commits": [
-        "9497ab1fe2cbcc4160755691b0dfdc205380b21c"
+        "fb580d5d61d6b414eb87a9be6866fc76dee50fa2"
       ]
     },
     "testRunner": {
@@ -29,7 +29,7 @@
     },
     "repo": {
       "uri": "https://github.com/moT01/celestial-bodies-database",
-      "branch": "v0.1.3"
+      "branch": "v0.1.4"
     },
     "dependencies": [
       {
@@ -76,7 +76,7 @@
           ],
           "setup": {
             "commits": [
-              "b82c5956c6da4960461adc351bd1792e70108e8e"
+              "a80557e1c3d0feabec6e3725f5c7339f5908c4e5"
             ]
           }
         }
