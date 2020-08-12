@@ -8,7 +8,7 @@ For this project, you need to log in to psql. Do that by entering `psql -U freec
 
 Here's some ideas for other column and table names: `description`, `has_life`, `is_spherical`, `age_in_millions_of_years`, `planet_types`, `galaxy_types`, `distance_from_earth`.
 
-You can export your database at any time by entering `sudo pg_dump -U freecodecamp universe > universe.sql` from a terminal (not the psql prompt). It will save your database to `universe.sql`. Then, you can save that file to your computer and use it to recreate the database.
+You can export your database at any time by entering `pg_dump -c -C --inserts -U freecodecamp universe > universe.sql` from a terminal (not the psql prompt). Make sure you are in the `project` folder when entering the command. It will save your database to `universe.sql`. Then, you can save that file to your computer and use it to recreate the database.
 
 **Don't forget to connect to your database after you create it** :smile:
 
