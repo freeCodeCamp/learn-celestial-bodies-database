@@ -16,7 +16,7 @@ config:
       tap: --reporter=mocha-tap-reporter
     directory: .freeCodeCamp
   repo:
-    uri: https://github.com/moT01/celestial-bodies-database
+    uri: https://github.com/moT01/.celestial-bodies-database
     branch: v0.1.4
   dependencies:
     - name: node
