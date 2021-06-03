@@ -4,11 +4,11 @@
 
 ## 1. Instructions
 
-For this project, you need to log in to psql. Do that by entering `psql -U freecodecamp postgres` in the terminal. Be sure to get creative, and have fun!
+For this project, you need to log in to to PostgreSQL with psql to create your database. Do that by entering `psql --username=freecodecam --dbname=postgres` in the terminal. Be sure to get creative, and have fun!
 
 Here's some ideas for other column and table names: `description`, `has_life`, `is_spherical`, `age_in_millions_of_years`, `planet_types`, `galaxy_types`, `distance_from_earth`.
 
-You can export your database at any time by entering `pg_dump -c -C --inserts -U freecodecamp universe > universe.sql` from a terminal (not the psql prompt). Make sure you are in the `project` folder when entering the command. It will save your database to `universe.sql`. Then, you can save that file to your computer and use it to recreate the database.
+If you leave your virtual machine, your database will not be saved. You can make a dump of it by entering `pg_dump --clean --create --inserts --username=freecodecamp universe > universe.sql` in a terminal (not the psql one). Make sure you are in the `project` folder when entering the command. It will save the commands to rebuild your database to `universe.sql`. Then, save the file somewhere. You can rebuild it by entering `psql -U postgres < universe.sql` in a terminal if you enter the command where the `.sql` file is.
 
 **Don't forget to connect to your database after you create it** :smile:
 
