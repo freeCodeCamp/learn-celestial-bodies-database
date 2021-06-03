@@ -12,15 +12,14 @@
         "sudo cp ~/project/.freeCodeCamp/.psqlrc ~",
         "sudo cp ~/project/.freeCodeCamp/pg_hba.conf /etc/postgresql/12/main/pg_hba.conf",
         "sudo service postgresql start",
-        "sudo -u postgres psql -c \"CREATE USER freecodecamp WITH CREATEDB;\"",
-        "sudo -u postgres psql -c \"ALTER ROLE postgres WITH PASSWORD 'password';\""
+        "sudo -u postgres psql -c \"CREATE USER freecodecamp WITH CREATEDB;\""
       ],
       "commits": [
-        "ffedcf2ee000fc51aa45a851fc9e183e294b0a7a"
+        "a339d588ace6b0ee8d895b329fb8b20dbf935f44"
       ]
     },
     "testRunner": {
-      "command": "./node_modules/.bin/mocha",
+      "command": "npm run programmatic-test",
       "args": {
         "filter": "--grep",
         "tap": "--reporter=mocha-tap-reporter"
@@ -42,8 +41,8 @@
     {
       "id": "1",
       "title": "Instructions",
-      "summary": "For this project, you need to log in to psql. Do that by entering `psql -U fr...",
-      "content": "For this project, you need to log in to psql. Do that by entering `psql -U freecodecamp postgres` in the terminal. Be sure to get creative, and have fun!\n\nHere's some ideas for other column and table names: `description`, `has_life`, `is_spherical`, `age_in_millions_of_years`, `planet_types`, `galaxy_types`, `distance_from_earth`.\n\nYou can export your database at any time by entering `pg_dump -c -C --inserts -U freecodecamp universe > universe.sql` from a terminal (not the psql prompt). Make sure you are in the `project` folder when entering the command. It will save your database to `universe.sql`. Then, you can save that file to your computer and use it to recreate the database.\n\n**Don't forget to connect to your database after you create it** :smile:",
+      "summary": "For this project, you need to log in to to PostgreSQL with psql to create you...",
+      "content": "For this project, you need to log in to to PostgreSQL with psql to create your database. Do that by entering `psql --username=freecodecam --dbname=postgres` in the terminal. Be sure to get creative, and have fun!\n\nHere's some ideas for other column and table names: `description`, `has_life`, `is_spherical`, `age_in_millions_of_years`, `planet_types`, `galaxy_types`, `distance_from_earth`.\n\nIf you leave your virtual machine, your database will not be saved. You can make a dump of it by entering `pg_dump --clean --create --inserts --username=freecodecamp universe > universe.sql` in a terminal (not the psql one). Make sure you are in the `project` folder when entering the command. It will save the commands to rebuild your database to `universe.sql`. Then, save the file somewhere. You can rebuild it by entering `psql -U postgres < universe.sql` in a terminal if you enter the command where the `.sql` file is.\n\n**Don't forget to connect to your database after you create it** :smile:",
       "steps": [
         {
           "id": "1.1",
@@ -51,12 +50,12 @@
           "subtasks": [
             "You should create a database named `universe`",
             "Be sure to connect to your database with `\\c universe`. Then, you should add tables named `galaxy`, `star`, `planet`, and `moon`",
-            "Each table should have a unique primary key",
+            "Each table should have a primary key",
             "Each primary key should automatically increment",
             "Each table should have a `name` column",
             "You should use the `INT` data type for at least two columns that are not a primary or foreign key",
             "You should use the `NUMERIC` data type",
-            "You should use the `TEXT` data type",
+            "You should use the `DATE` data type",
             "You should use the `BOOLEAN` data type on at least two columns",
             "Each \"star\" should have a foreign key that references one of the rows in `galaxy`",
             "Each \"planet\" should have a foreign key that references one of the rows in `star`",
@@ -76,7 +75,7 @@
           ],
           "setup": {
             "commits": [
-              "d8f2274a24618220760f27d3e53463700f17cd9d"
+              "4ec64f61baebe4e4bb8d7abb48dc1bb576002b01"
             ]
           }
         }
