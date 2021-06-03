@@ -20,12 +20,12 @@ Complete the tasks below
 
 - You should create a database named `universe`
 - Be sure to connect to your database with `\c universe`. Then, you should add tables named `galaxy`, `star`, `planet`, and `moon`
-- Each table should have a unique primary key
+- Each table should have a primary key
 - Each primary key should automatically increment
 - Each table should have a `name` column
 - You should use the `INT` data type for at least two columns that are not a primary or foreign key
 - You should use the `NUMERIC` data type
-- You should use the `TEXT` data type
+- You should use the `DATE` data type
 - You should use the `BOOLEAN` data type on at least two columns
 - Each "star" should have a foreign key that references one of the rows in `galaxy`
 - Each "planet" should have a foreign key that references one of the rows in `star`
