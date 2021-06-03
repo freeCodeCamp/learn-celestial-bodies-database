@@ -15,7 +15,7 @@
         "sudo -u postgres psql -c \"CREATE USER freecodecamp WITH CREATEDB;\""
       ],
       "commits": [
-        "7fb30f1034bcbd294cb8938eb7b35779f321d204"
+        "a8e7dcaf5313723230e29aeb9a3f53d75301fdae"
       ]
     },
     "testRunner": {
@@ -54,8 +54,8 @@
             "Each primary key should automatically increment",
             "Each table should have a `name` column",
             "You should use the `INT` data type for at least two columns that are not a primary or foreign key",
-            "You should use the `NUMERIC` data type",
-            "You should use the `DATE` data type",
+            "You should use the `NUMERIC` data type at least once",
+            "You should use the `TEXT` data type at least once",
             "You should use the `BOOLEAN` data type on at least two columns",
             "Each \"star\" should have a foreign key that references one of the rows in `galaxy`",
             "Each \"planet\" should have a foreign key that references one of the rows in `star`",
@@ -75,7 +75,7 @@
           ],
           "setup": {
             "commits": [
-              "48afe7c0602648325882f1641200c544719fe48b"
+              "3c33aba9fe1584afce779dd4963265e37ab458f9"
             ]
           }
         }
