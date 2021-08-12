@@ -2,11 +2,11 @@ version: '0.1.5'
 config:
   setup:
     commands:
+      - sudo cp ~/project/.freeCodeCamp/.psqlrc ~
+      - sudo cp ~/project/.freeCodeCamp/pg_hba.conf /etc/postgresql/12/main/pg_hba.conf
       - sudo chown -R postgres:postgres /var/lib/postgresql/12/main
       - sudo service postgresql stop
       - cd .freeCodeCamp && npm install
-      - sudo cp ~/project/.freeCodeCamp/.psqlrc ~
-      - sudo cp ~/project/.freeCodeCamp/pg_hba.conf /etc/postgresql/12/main/pg_hba.conf
       - sudo service postgresql start
       - sudo -u postgres psql -c "CREATE USER freecodecamp WITH CREATEDB;"
   testRunner:
