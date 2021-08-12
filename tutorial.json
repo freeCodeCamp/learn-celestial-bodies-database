@@ -7,16 +7,16 @@
   "config": {
     "setup": {
       "commands": [
+        "sudo cp ~/project/.freeCodeCamp/.psqlrc ~",
+        "sudo cp ~/project/.freeCodeCamp/pg_hba.conf /etc/postgresql/12/main/pg_hba.conf",
         "sudo chown -R postgres:postgres /var/lib/postgresql/12/main",
         "sudo service postgresql stop",
         "cd .freeCodeCamp && npm install",
-        "sudo cp ~/project/.freeCodeCamp/.psqlrc ~",
-        "sudo cp ~/project/.freeCodeCamp/pg_hba.conf /etc/postgresql/12/main/pg_hba.conf",
         "sudo service postgresql start",
         "sudo -u postgres psql -c \"CREATE USER freecodecamp WITH CREATEDB;\""
       ],
       "commits": [
-        "4df54e33175c3741de2e7704b5938ed858e675f6"
+        "3c5f72f445bc86a4672956cc4fa2a9b10e729b8b"
       ]
     },
     "testRunner": {
@@ -76,7 +76,7 @@
           ],
           "setup": {
             "commits": [
-              "f313ecab99501ee09ec49ccee328d11e9eadde74"
+              "1891f3a39b5dffa182228125dad980f651af8da1"
             ]
           }
         }
