@@ -1,5 +1,5 @@
 {
-  "version": "0.1.5",
+  "version": "1.0.0",
   "summary": {
     "title": "Celestial Bodies Database",
     "description": "> Welcome! Are you ready to build a database of the universe?"
@@ -16,7 +16,7 @@
         "sudo -u postgres psql -c \"CREATE USER freecodecamp WITH CREATEDB;\""
       ],
       "commits": [
-        "3c5f72f445bc86a4672956cc4fa2a9b10e729b8b"
+        "e917747c2940971bc96ec5201e3f51adac04f3bf"
       ]
     },
     "testRunner": {
@@ -28,8 +28,8 @@
       "directory": ".freeCodeCamp"
     },
     "repo": {
-      "uri": "https://github.com/moT01/.celestial-bodies-database",
-      "branch": "v0.1.5"
+      "uri": "https://github.com/freeCodeCamp/celestial-bodies-database",
+      "branch": "v1.0.0"
     },
     "dependencies": [
       {
@@ -76,7 +76,7 @@
           ],
           "setup": {
             "commits": [
-              "1891f3a39b5dffa182228125dad980f651af8da1"
+              "f94574537939e05c4f1248a22189f5bf5412b6f0"
             ]
           }
         }
