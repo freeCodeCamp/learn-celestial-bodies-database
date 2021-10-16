@@ -41,4 +41,4 @@ Complete the tasks below
 - At least one column from each table should be required to be `UNIQUE`
 - All columns named `name` should be of type `VARCHAR`
 - Each primary key column should follow the naming convention `table_name_id`. For example, the `moon` table should have a primary key column named `moon_id`
-- Each foreign key column should have the same name as the column it is referencing
+- Each foreign key column should have the same name as the column it is referencing.
