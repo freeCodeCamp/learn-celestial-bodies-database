@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "summary": {
     "title": "Celestial Bodies Database",
     "description": "> Welcome! Are you ready to build a database of the universe?"
@@ -28,8 +28,8 @@
       "directory": ".freeCodeCamp"
     },
     "repo": {
-      "uri": "https://github.com/freeCodeCamp/learn-celestial-bodies-database",
-      "branch": "v1.0.1"
+      "uri": "https://github.com/gikf/learn-celestial-bodies-database",
+      "branch": "v1.0.2"
     },
     "dependencies": [
       {
@@ -76,7 +76,7 @@
           ],
           "setup": {
             "commits": [
-              "cfa4135cb6bc3463e95d1c3a82bf1b89144251c3"
+              "a26cbf8f0168d934de032309a82a08e3eed9d960"
             ]
           }
         }
