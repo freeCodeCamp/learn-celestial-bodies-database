@@ -1,4 +1,4 @@
-version: '1.0.1'
+version: '1.0.2'
 config:
   setup:
     commands:
@@ -17,7 +17,7 @@ config:
     directory: .freeCodeCamp
   repo:
     uri: https://github.com/freeCodeCamp/learn-celestial-bodies-database
-    branch: v1.0.1
+    branch: v1.0.2
   dependencies:
     - name: node
       version: '>=10'

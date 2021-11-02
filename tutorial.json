@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "summary": {
     "title": "Celestial Bodies Database",
     "description": "> Welcome! Are you ready to build a database of the universe?"
@@ -29,7 +29,7 @@
     },
     "repo": {
       "uri": "https://github.com/freeCodeCamp/learn-celestial-bodies-database",
-      "branch": "v1.0.1"
+      "branch": "v1.0.2"
     },
     "dependencies": [
       {
@@ -43,7 +43,7 @@
       "id": "1",
       "title": "Instructions",
       "summary": "For this project, you need to log in to PostgreSQL with psql to create your d...",
-      "content": "For this project, you need to log in to PostgreSQL with psql to create your database. Do that by entering `psql --username=freecodecamp --dbname=postgres` in the terminal. Be sure to get creative, and have fun!\r\n\r\nHere's some ideas for other column and table names: `description`, `has_life`, `is_spherical`, `age_in_millions_of_years`, `planet_types`, `galaxy_types`, `distance_from_earth`.\r\n\r\nIf you leave your virtual machine, your database will not be saved. You can make a dump of it by entering `pg_dump --clean --create --inserts --username=freecodecamp universe > universe.sql` in a terminal (not the psql one). Make sure you are in the `project` folder when entering the command. It will save the commands to rebuild your database to `universe.sql`. Then, save the file somewhere. You can rebuild it by entering `psql -U postgres < universe.sql` in a terminal if you enter the command where the `.sql` file is.\r\n\r\n**Don't forget to connect to your database after you create it** :smile:",
+      "content": "For this project, you need to log in to PostgreSQL with psql to create your database. Do that by entering `psql --username=freecodecamp --dbname=postgres` in the terminal. Be sure to get creative, and have fun!\n\nHere's some ideas for other column and table names: `description`, `has_life`, `is_spherical`, `age_in_millions_of_years`, `planet_types`, `galaxy_types`, `distance_from_earth`.\n\nIf you leave your virtual machine, your database will not be saved. You can make a dump of it by entering `pg_dump --clean --create --inserts --username=freecodecamp universe > universe.sql` in a terminal (not the psql one). Make sure you are in the `project` folder when entering the command. It will save the commands to rebuild your database to `universe.sql`. Then, save the file somewhere. You can rebuild it by entering `psql -U postgres < universe.sql` in a terminal if you enter the command where the `.sql` file is.\n\n**Don't forget to connect to your database after you create it** :smile:",
       "steps": [
         {
           "id": "1.1",
@@ -76,7 +76,7 @@
           ],
           "setup": {
             "commits": [
-              "cfa4135cb6bc3463e95d1c3a82bf1b89144251c3"
+              "a26cbf8f0168d934de032309a82a08e3eed9d960"
             ]
           }
         }
