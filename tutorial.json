@@ -38,7 +38,7 @@
       }
     ],
     "webhook": {
-      "url": "https://53c1-97-83-197-179.ngrok.io/coderoad-challenge-completed",
+      "url": "https://404c-97-83-197-179.ngrok.io/coderoad-challenge-completed",
       "events": {
         "init": false,
         "reset": false,
