@@ -1,15 +1,10 @@
 id: 'freeCodeCamp/learn-celestial-bodies-database:v1.0.0'
-version: '1.0.2'
+version: '1.0.3'
 config:
   setup:
     commands:
-      - sudo cp ~/project/.freeCodeCamp/.psqlrc ~
-      - sudo cp ~/project/.freeCodeCamp/pg_hba.conf /etc/postgresql/12/main/pg_hba.conf
-      - sudo chown -R postgres:postgres /var/lib/postgresql/12/main
-      - sudo service postgresql stop
+      - ./.freeCodeCamp/setup.sh
       - cd .freeCodeCamp && npm install
-      - sudo service postgresql start
-      - sudo -u postgres psql -c "CREATE USER freecodecamp WITH CREATEDB;"
   testRunner:
     command: npm run programmatic-test
     args:
@@ -18,12 +13,18 @@ config:
     directory: .freeCodeCamp
   repo:
     uri: https://github.com/freeCodeCamp/learn-celestial-bodies-database
-    branch: v1.0.2
+    branch: v1.0.3
+  continue:
+    commands:
+      - './.freeCodeCamp/setup.sh'
+  reset:
+    commands:
+      - './.freeCodeCamp/setup.sh'
   dependencies:
     - name: node
       version: '>=10'
   webhook:
-    url: 'http://freecodecamp.org/coderoad-challenge-completed'
+    url: 'http://freecodecamp.dev/coderoad-challenge-completed'
     events:
       init: false
       reset: false
