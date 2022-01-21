@@ -20,3 +20,8 @@ Whenever something on the version branch gets changed, add the new branch name a
   - Fix test 7 checked type boolean -> numeric
   - Fix test 8 description DATE -> TEXT
   - Fix test 9 requires tow columns using boolean data type
+
+## [v1.0.3]
+
+- Move startup commands to `setup.sh`
+- Run `setup.sh` on continue and reset
