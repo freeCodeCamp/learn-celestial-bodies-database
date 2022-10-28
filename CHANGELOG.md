@@ -25,3 +25,7 @@ Whenever something on the version branch gets changed, add the new branch name a
 
 - Move startup commands to `setup.sh`
 - Run `setup.sh` on continue and reset
+
+## [v1.0.4]
+
+- Fix test 6, see issue: https://github.com/freeCodeCamp/freeCodeCamp/issues/45585
