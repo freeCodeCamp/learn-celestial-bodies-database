@@ -29,3 +29,7 @@ Whenever something on the version branch gets changed, add the new branch name a
 ## [v1.0.4]
 
 - Fix test 6, see issue: https://github.com/freeCodeCamp/freeCodeCamp/issues/45585
+
+## [v1.0.5]
+
+- Fix foreign key tests, see issue: https://github.com/freeCodeCamp/freeCodeCamp/issues/50935
