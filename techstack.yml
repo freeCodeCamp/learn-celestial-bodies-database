@@ -1,0 +1,20 @@
+repo_name: freeCodeCamp/learn-celestial-bodies-database
+report_id: 6414bf591d04d4592c71e840100d2254
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-27T03:51:45+00:00'
+requested_by: moT01
+provider: github
+branch: main
+detected_tools_count: 1
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/freeCodeCamp/learn-celestial-bodies-database
+  detection_source: Repo Metadata
