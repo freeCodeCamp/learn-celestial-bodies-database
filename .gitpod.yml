@@ -7,6 +7,7 @@ checkoutLocation: 'project'
 tasks:
   - before: |
       sudo cp /workspace/project/.freeCodeCamp/.bashrc ~/.bashrc
+      sudo cp /workspace/project/.freeCodeCamp/.psqlrc ~/.psqlrc
       sudo cp /workspace/project/.freeCodeCamp/pg_hba.conf /etc/postgresql/12/main/pg_hba.conf
       sudo chmod -R 777 /workspace
       sudo chown -R postgres:postgres /var/lib/postgresql/12/main
