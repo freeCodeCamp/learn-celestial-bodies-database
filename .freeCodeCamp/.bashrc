@@ -129,3 +129,5 @@ export PATH="$PATH:$HOME/.rvm/bin"
 # stuff I added
 PS1='camper: \[\033[01;34m\]/${PWD##*/}\[\033[00m\]\$ '
 HISTFILE=/workspace/.bash_history
+PROMPT_COMMAND='echo $PWD >> /workspace/project/.freeCodeCamp/test/.cwd; history -a'
+trap 'echo $BASH_COMMAND >> /workspace/project/.freeCodeCamp/test/.next_command' DEBUG
