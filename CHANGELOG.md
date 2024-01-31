@@ -33,3 +33,7 @@ Whenever something on the version branch gets changed, add the new branch name a
 ## [v1.0.5]
 
 - Fix foreign key tests, see issue: https://github.com/freeCodeCamp/freeCodeCamp/issues/50935
+
+## [v2.0.0]
+
+- Add Gitpod config
