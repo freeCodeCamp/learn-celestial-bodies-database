@@ -128,3 +128,4 @@ export PATH="$PATH:$HOME/.rvm/bin"
 
 # stuff I added
 PS1='camper: \[\033[01;34m\]/${PWD##*/}\[\033[00m\]\$ '
+HISTFILE=/workspace/.bash_history
