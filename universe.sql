@@ -273,6 +273,7 @@ INSERT INTO public.galaxy VALUES (3, 'Backward Galaxy', 'spiral arms point, whic
 INSERT INTO public.galaxy VALUES (4, 'Bear Paw Galaxy', 'bears claw., which', 3, NULL, NULL);
 INSERT INTO public.galaxy VALUES (5, 'Black Eye  Galaxy', 'absorbing dch', 2, NULL, NULL);
 INSERT INTO public.galaxy VALUES (6, 'Bodes  Galaxy', 'discovered this', 1, NULL, NULL);
+INSERT INTO public.galaxy VALUES (7, 'Bodes  Galaxy', 'discovered this', 1, NULL, NULL);
 
 
 --
@@ -296,7 +297,7 @@ INSERT INTO public.star VALUES (2, 'Eridanus', NULL, 'NULL', 3);
 INSERT INTO public.star VALUES (3, 'Cassiopeia', NULL, 'NULL', 4);
 INSERT INTO public.star VALUES (4, 'Scorpius', NULL, 'NULL', 2);
 INSERT INTO public.star VALUES (5, 'Crux', NULL, 'NULL', 3);
-INSERT INTO public.star VALUES (6, 'Cancer', NULL, 'NULL', 4);
+INSERT INTO public.star VALUES (6, 'Cmancer', NULL, 'NULL', 4);
 INSERT INTO public.star VALUES (7, 'Leo', NULL, 'NULL', 2);
 
 
@@ -304,7 +305,7 @@ INSERT INTO public.star VALUES (7, 'Leo', NULL, 'NULL', 2);
 -- Data for Name: planet; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
-INSERT INTO public.planet VALUES (1, 'Giant planet', true, true, NULL, 1);
+ INSERT INTO public.planet VALUES (1, 'Giant planet', true, true, NULL, 1);
 INSERT INTO public.planet VALUES (2, 'Ice giant planet', true, true, NULL, 2);
 INSERT INTO public.planet VALUES (3, 'Mini-Neptune planet', true, true, NULL, 1);
 INSERT INTO public.planet VALUES (4, 'Super-Earth planet', true, true, NULL, 3);
