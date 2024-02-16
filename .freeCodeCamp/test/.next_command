@@ -987,3 +987,5 @@ pg_dump -cC --inserts -U freecodecamp universe > universe.sql
 pg_dump -cC --inserts -U freecodecamp universe > universe.sql
 pg_dump -cC --inserts -U freecodecamp universe > universe.sql
 echo "# PSQL-Universe-DB" >> README.md
+git remote add origin git@github.com:Pinky515/PSQL-Universe-DB.git
+git remote add origin git@github.com:Pinky515/PSQL-Universe-DB.git
