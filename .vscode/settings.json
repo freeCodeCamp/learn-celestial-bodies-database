@@ -48,7 +48,9 @@
   "npm.fetchOnlinePackageInfo": false,
   "task.slowProviderWarning": false,
   "terminal.integrated.allowChords": false,
-  "terminal.integrated.commandsToSkipShell": ["coderoad.enter"],
+  "terminal.integrated.commandsToSkipShell": [
+    "coderoad.enter"
+  ],
   "terminal.integrated.enableFileLinks": false,
   "terminal.integrated.environmentChangesIndicator": "off",
   "terminal.integrated.macOptionIsMeta": true,
@@ -58,7 +60,7 @@
   "update.showReleaseNotes": false,
   "workbench.enableExperiments": false,
   "workbench.startupEditor": "none",
-  "workbench.colorTheme": "Tomorrow Night Blue",
+  "workbench.colorTheme": "Default Dark Modern",
   "workbench.colorCustomizations": {
     "[Tomorrow Night Blue]": {
       "menu.background": "#0a0a23",
