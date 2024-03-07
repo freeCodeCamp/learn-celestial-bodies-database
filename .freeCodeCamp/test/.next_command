@@ -1,0 +1,226 @@
+builtin unset VSCODE_INJECTION
+[ -z "$VSCODE_SHELL_INTEGRATION" ]
+[ -n "${VSCODE_ENV_REPLACE:-}" ]
+[ -n "${VSCODE_ENV_PREPEND:-}" ]
+[ -n "${VSCODE_ENV_APPEND:-}" ]
+[[ "$(uname -s)" =~ ^CYGWIN*|MINGW*|MSYS* ]]
+[[ "$HISTCONTROL" =~ .. ]]
+__vsc_history_verify=1
+__vsc_initialized=0
+__vsc_original_PS1="$PS1"
+__vsc_original_PS2="$PS2"
+__vsc_custom_PS1=""
+__vsc_custom_PS2=""
+__vsc_in_command_execution="1"
+__vsc_current_command=""
+__vsc_nonce="$VSCODE_NONCE"
+unset VSCODE_NONCE
+[[ -n "${bash_preexec_imported:-}" ]]
+__vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
+[[ -z "$__vsc_dbg_trap" ]]
+[[ "$__vsc_dbg_trap" != '__vsc_preexec "$_"' && "$__vsc_dbg_trap" != '__vsc_preexec_all "$_"' ]]
+trap '__vsc_preexec_all "$_"' DEBUG
+__vsc_original_prompt_command=${PROMPT_COMMAND:-}
+psql --username=freecodecamp --dbname=postgres
+psql --username=freecodecamp --dbname=postgres
+builtin unset VSCODE_INJECTION
+[ -z "$VSCODE_SHELL_INTEGRATION" ]
+[ -n "${VSCODE_ENV_REPLACE:-}" ]
+[ -n "${VSCODE_ENV_PREPEND:-}" ]
+[ -n "${VSCODE_ENV_APPEND:-}" ]
+[[ "$(uname -s)" =~ ^CYGWIN*|MINGW*|MSYS* ]]
+[[ "$HISTCONTROL" =~ .. ]]
+__vsc_history_verify=1
+__vsc_initialized=0
+__vsc_original_PS1="$PS1"
+__vsc_original_PS2="$PS2"
+__vsc_custom_PS1=""
+__vsc_custom_PS2=""
+__vsc_in_command_execution="1"
+__vsc_current_command=""
+__vsc_nonce="$VSCODE_NONCE"
+unset VSCODE_NONCE
+[[ -n "${bash_preexec_imported:-}" ]]
+__vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
+[[ -z "$__vsc_dbg_trap" ]]
+[[ "$__vsc_dbg_trap" != '__vsc_preexec "$_"' && "$__vsc_dbg_trap" != '__vsc_preexec_all "$_"' ]]
+trap '__vsc_preexec_all "$_"' DEBUG
+__vsc_original_prompt_command=${PROMPT_COMMAND:-}
+ls --color=auto
+ls --color=auto
+l
+ls --color=auto
+pg_dump -cC --inserts -U freecodecamp universe > universe.sql
+ls --color=auto
+ls --color=auto --a
+ls --color=auto --all
+ls --color=auto
+more universe.sql
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+[ -d "$HOME/bin" ]
+[ -d "$HOME/.local/bin" ]
+PATH="$HOME/.local/bin:$PATH"
+[ -e /home/gitpod/.nix-profile/etc/profile.d/nix.sh ]
+. /home/gitpod/.nix-profile/etc/profile.d/nix.sh
+[[ -s "$HOME/.rvm/scripts/rvm" ]]
+source "$HOME/.rvm/scripts/rvm"
+[[ -n $SSH_CONNECTION ]]
+'/ide/node' -p '"84a28fed5b72" + JSON.stringify(process.env) + "84a28fed5b72"'
+builtin unset VSCODE_INJECTION
+[ -z "$VSCODE_SHELL_INTEGRATION" ]
+[ -n "${VSCODE_ENV_REPLACE:-}" ]
+[ -n "${VSCODE_ENV_PREPEND:-}" ]
+[ -n "${VSCODE_ENV_APPEND:-}" ]
+[[ "$(uname -s)" =~ ^CYGWIN*|MINGW*|MSYS* ]]
+[[ "$HISTCONTROL" =~ .. ]]
+__vsc_history_verify=1
+__vsc_initialized=0
+__vsc_original_PS1="$PS1"
+__vsc_original_PS2="$PS2"
+__vsc_custom_PS1=""
+__vsc_custom_PS2=""
+__vsc_in_command_execution="1"
+__vsc_current_command=""
+__vsc_nonce="$VSCODE_NONCE"
+unset VSCODE_NONCE
+[[ -n "${bash_preexec_imported:-}" ]]
+__vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
+[[ -z "$__vsc_dbg_trap" ]]
+[[ "$__vsc_dbg_trap" != '__vsc_preexec "$_"' && "$__vsc_dbg_trap" != '__vsc_preexec_all "$_"' ]]
+trap '__vsc_preexec_all "$_"' DEBUG
+__vsc_original_prompt_command=${PROMPT_COMMAND:-}
+psql -U postgres < universe.sql
+psql --username=freecodecamp --dbname=postgres
+ls --color=auto
+psql -U postgres < universe.sql
+ls --color=auto
+\l
+\d
+pg_dump -cC --inserts -U freecodecamp universe > universe.sql
+more universe.sql
+__vsc_prompt_cmd_original
+psql --username=freecodecamp --dbname=postgres
+builtin unset VSCODE_INJECTION
+[ -z "$VSCODE_SHELL_INTEGRATION" ]
+[ -n "${VSCODE_ENV_REPLACE:-}" ]
+[ -n "${VSCODE_ENV_PREPEND:-}" ]
+[ -n "${VSCODE_ENV_APPEND:-}" ]
+[[ "$(uname -s)" =~ ^CYGWIN*|MINGW*|MSYS* ]]
+[[ "$HISTCONTROL" =~ .. ]]
+__vsc_history_verify=1
+__vsc_initialized=0
+__vsc_original_PS1="$PS1"
+__vsc_original_PS2="$PS2"
+__vsc_custom_PS1=""
+__vsc_custom_PS2=""
+__vsc_in_command_execution="1"
+__vsc_current_command=""
+__vsc_nonce="$VSCODE_NONCE"
+unset VSCODE_NONCE
+[[ -n "${bash_preexec_imported:-}" ]]
+__vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
+[[ -z "$__vsc_dbg_trap" ]]
+[[ "$__vsc_dbg_trap" != '__vsc_preexec "$_"' && "$__vsc_dbg_trap" != '__vsc_preexec_all "$_"' ]]
+trap '__vsc_preexec_all "$_"' DEBUG
+__vsc_original_prompt_command=${PROMPT_COMMAND:-}
+psql -U postgres < universe.sql
