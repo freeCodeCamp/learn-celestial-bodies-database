@@ -4,7 +4,7 @@ This repository contains the CodeRoad tutorial definition and course assets for 
 
 ## Start the course
 
-Open [Build a Celestial Bodies Database](CURRICULUM_PAGE_URLhttps://www.freecodecamp.org/learn/relational-databases-v9/lab-celestial-bodies-database/lab-celestial-bodies-database) on freeCodeCamp.
+Open [Build a Celestial Bodies Database](https://www.freecodecamp.org/learn/relational-databases-v9/lab-celestial-bodies-database/lab-celestial-bodies-database) on freeCodeCamp.
 
 The curriculum page contains the supported cloud IDE and local setup instructions. Both methods use the [`freeCodeCamp/rdb-alpha`](https://github.com/freeCodeCamp/rdb-alpha) development environment and load this repository as a CodeRoad tutorial.
 
