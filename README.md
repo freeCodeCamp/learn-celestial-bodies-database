@@ -1,6 +1,6 @@
 # Build a Celestial Bodies Database
 
-This repository contains the CodeRoad tutorial definition and course assets for the freeCodeCamp Build a Celestial Bodies Database course. It is not intended to run as a standalone project.
+This repository contains the CodeRoad tutorial definition and course assets for freeCodeCamp's Build a Celestial Bodies Database course. It is not intended to run as a standalone project.
 
 ## Start the course
 
