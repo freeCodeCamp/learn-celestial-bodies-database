@@ -1,0 +1,28 @@
+{
+  "name": "learn-celestial-bodies-database",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  // "features": {
+  //   "ghcr.io/devcontainers/features/docker-in-docker:2": {
+  //     "installDockerBuildx": false,
+  //     "installDockerComposeSwitch": false,
+  //     "moby": false
+  //   }
+  // },
+  "features": {
+    "ghcr.io/itsmechlark/features/postgresql:1": {
+      "version": 12
+    },
+    "ghcr.io/devcontainers/features/node:1": {}
+  },
+  // "remoteUser": "vscode",
+  // "containerUser": "vscode",
+  "workspaceFolder": "/workspace/learn-celestial-bodies-database",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace/learn-celestial-bodies-database,type=bind",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "CodeRoad.coderoad"
+      ]
+    }
+  }
+}
